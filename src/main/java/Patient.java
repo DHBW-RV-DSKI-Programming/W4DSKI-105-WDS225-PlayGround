@@ -1,0 +1,20 @@
+package main.java;
+
+class Patient {
+
+    private String name;
+    private int age;
+
+    Patient(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    String getName() {
+        return name;
+    }
+
+    int getAge() {
+        return age;
+    }
+}
